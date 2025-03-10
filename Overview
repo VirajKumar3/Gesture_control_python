@@ -1,0 +1,44 @@
+Virtual Mouse with Enhanced Gestures
+Overview
+This project introduces a gesture-based virtual mouse that enables users to control their cursor using hand gestures. The system leverages MediaPipe, OpenCV, and Python to track hand movements and translate them into mouse actions. Unlike traditional virtual mouse implementations, this project introduces new customizable gestures for improved accuracy, usability, and accessibility.
+
+Features
+✅ Hand Gesture-Based Cursor Control
+✅ New Customizable Gestures (e.g., scroll, right-click, drag-and-drop)
+✅ Real-Time Hand Tracking using MediaPipe
+✅ AI-Powered Gesture Recognition
+✅ Works on Standard Webcam without Additional Hardware
+✅ Optimized for Low Latency and High Responsiveness
+
+Installation
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/virtual-mouse-gestures.git
+cd virtual-mouse-gestures
+2. Install Dependencies
+Ensure you have Python 3.x installed. Then, run:
+
+bash
+Copy
+Edit
+pip install opencv-python mediapipe pyautogui numpy
+3. Run the Virtual Mouse
+bash
+Copy
+Edit
+python virtual_mouse.py
+How It Works
+The webcam captures the hand gestures.
+MediaPipe detects the hand landmarks.
+Predefined gestures are mapped to mouse actions like click, move, scroll, etc.
+New gestures can be added and customized.
+Newly Added Gestures
+✌️ Two-Finger Scroll → Scrolls up/down.
+🤚 Palm Open → Stops mouse movement.
+🤏 Pinch & Drag → Click and drag objects.
+Future Enhancements
+🔹 Dynamic Gesture Learning using AI
+🔹 Multi-Hand Support
+🔹 Integration with Smart Home Devices
